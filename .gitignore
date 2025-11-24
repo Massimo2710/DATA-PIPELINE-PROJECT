@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+.env
+
+# DuckDB - on ne versione pas les bases de données
+data/*.duckdb*
+*.duckdb*
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# Dagster
+dagster_project/.tmp*/
+.dagster/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
