@@ -1,2 +1,2 @@
 # DATA-PIPELINE-PROJECT
-Data pipeline with duckDB + Dagster + DBT
+Modern data pipeline with Python, DuckDB, dbt and Dagster
